@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/segments/.gitkeep
+!data/processed/datasets/.gitkeep
+
+# Model files
+models/*
+!models/.gitkeep
+
+# Experiment outputs
+experiments/results/*
+experiments/keras_tuner/*
+experiments/grid_search/*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
